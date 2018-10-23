@@ -50,6 +50,7 @@ Detail View
 ### Functionality
 
 - The filter navigation needs to be able to perform real time filtering on both client side data, as well as server side queries.
+- Yelp's `/businesses/search` endpoint requires a `location`, please use `Las Vegas`
 - `Categories` can be pre-filled from the [Categories endpoint](https://www.yelp.com/developers/documentation/v3/all_categories)
 - The items should always show 4-6 items per row depending on viewport size. Use your own judgement for when to change per breakpoints.
 - Please see the [Yelp documentation](https://www.yelp.com/developers/documentation/v3) for more details.
