@@ -68,9 +68,11 @@ Detail View
 - Write clear **documentation** on how the app was designed and how to run the code.
 - Provide proper unit tests.
 - Provide components in [Storybook](https://storybook.js.org) with tests.
+- Use Yelp's [Graph QL]() endpoint
 - Write concise and clear commit messages.
 - Provide an online demo of the application.
 - Include subtle animations to focus attention
+- Describe optimization opportunities when you conclude
 
 ## What We Care About
 
