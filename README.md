@@ -60,7 +60,7 @@ Detail View
 - JS oriented
   - Use **React**.
   - _Do not_ use any React boilerplate, such as Create React App
-  - Use CSS or Less/SASS/SCSS or any **CSS** framework as you like.
+- Use CSS in lieu of a framework like Less/SASS/SCSS.
 
 ### Bonus
 
