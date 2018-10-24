@@ -30,7 +30,7 @@ Main
     - Restaurant item
       - Image (use first item in `photos`)
       - Cuisine / Categories (use first item in `categories`)
-      - Rating 
+      - Rating
       - Price range
       - Open / Closed
       - Restaurant name
@@ -44,7 +44,6 @@ Detail View
       - Name
       - Rating
       - Text
-
 ```
 
 ### Functionality
@@ -60,7 +59,7 @@ Detail View
 - JS oriented
   - Use **React**.
   - _Do not_ use any React boilerplate, such as Create React App
-- Use CSS in lieu of a framework like Less/SASS/SCSS.
+- Feel free to use a preprocessor like SASS/SCSS/Less but _do not_ use any CSS frameworks or libraries.
 
 ### Bonus
 
@@ -68,7 +67,7 @@ Detail View
 - Write clear **documentation** on how the app was designed and how to run the code.
 - Provide proper unit tests.
 - Provide components in [Storybook](https://storybook.js.org) with tests.
-- Use Yelp's [Graph QL]() endpoint
+- Use Yelp's [Graph QL](https://www.yelp.com/developers/graphql/guides/intro) endpoint
 - Write concise and clear commit messages.
 - Provide an online demo of the application.
 - Include subtle animations to focus attention
