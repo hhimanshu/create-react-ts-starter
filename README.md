@@ -8,9 +8,9 @@ Use HTML, CSS, and JavaScript to implement the following mock-up. You will need 
 
 ![Superformula-front-end-test-mockup](./mockup.png)
 
-Use this Sketch file to see button states, colors, and responsive design.
+Use this Figma file to see button states, colors, and responsive design.  You should be sure to complete the test to mimic the design as seen.
 
-> [Source Sketch file](Superformula-FE-test-264388d.sketch)
+> [Source Figma file](https://www.figma.com/file/4MqQhKPsnKetTud9tm6kDY/Superformula-FE-test-264388d?node-id=0%3A1)
 
 ## Requirements
 
