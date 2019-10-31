@@ -65,7 +65,7 @@ Detail View
 
 ### Bonus
 
-- Also create mobile version included in Sketch comp.
+- Also create mobile version included in Figma comp.
 - Write clear **documentation** on how the app was designed and how to run the code.
 - Provide proper unit tests.
 - Provide components in [Storybook](https://storybook.js.org) with tests.
