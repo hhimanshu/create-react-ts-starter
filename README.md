@@ -36,7 +36,7 @@ Main
       - Price range
       - Open / Closed
       - Restaurant name
-      - Learn more (open modal to show more details)
+      - Learn more (navigate to Detail View)
 Detail View
   - Restaurant Name & Rating
   - Map (optional, if time allows)
