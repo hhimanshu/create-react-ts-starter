@@ -61,7 +61,7 @@ Detail View
 - TypeScript oriented (JavaScipt can be used, but we strongly prefer TypeScript)
   - Use **React**.
   - _Do not_ use any React boilerplate, such as Create React App
-- Feel free to use a preprocessor like SASS/SCSS/Less but _do not_ use any pre-styled frameworks or libraries
+- Feel free to use a preprocessor, CSS-in-JS, or JSS tool but _do not_ use any pre-styled frameworks or libraries
   - The general rule of thumb is: you should write your own styling for your components, do not use "pre-made" tools and utilities
   - GOOD:
     - Styled-Components
