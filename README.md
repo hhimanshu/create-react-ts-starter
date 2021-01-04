@@ -73,7 +73,7 @@ Detail View
   - BAD:
     - Tailwind
     - Bootstrap
-    - Material-UI
+    - Material UI
     - Semantic UI
 
 ### Bonus
