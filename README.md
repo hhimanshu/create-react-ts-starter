@@ -4,7 +4,7 @@ Be sure to read **all** of this document carefully, and follow the guidelines wi
 
 ## Context
 
-Use HTML, CSS, and JavaScript to implement the following mock-up. You will need to leverage an open API for restaurant data to fill in the details and functionality as described below. You are only required to complete the desktop views, unless otherwise instructed.
+Use React w/ TypeScript to implement the following mock-up. You will need to leverage an open API for restaurant data to fill in the details and functionality as described below. You are only required to complete the desktop views, unless otherwise instructed.
 
 ![Superformula-front-end-test-mockup](./mockup.png)
 
@@ -58,10 +58,23 @@ Detail View
 
 ### Tech stack
 
-- JS oriented
+- TypeScript oriented (JavaScipt can be used, but we strongly prefer TypeScript)
   - Use **React**.
   - _Do not_ use any React boilerplate, such as Create React App
-- Feel free to use a preprocessor like SASS/SCSS/Less but _do not_ use any CSS frameworks or libraries.
+- Feel free to use a preprocessor, CSS-in-JS, or JSS tool but _do not_ use any pre-styled frameworks or libraries
+  - The general rule of thumb is: you should write your own styling for your components, do not use "pre-made" tools and utilities
+  - GOOD:
+    - Styled-Components
+    - Emotion
+    - SCSS
+    - SASS
+    - LESS
+    - CSS
+  - BAD:
+    - Tailwind
+    - Bootstrap
+    - Material UI
+    - Semantic UI
 
 ### Bonus
 
@@ -83,7 +96,7 @@ _We're interested in your method and how you approach the problem just as much a
 
 Here's what you should strive for:
 
-- Good use of current HTML, CSS, and JavaScript & performance best practices.
+- Good use of current TypeScript, HTML, CSS, and performance best practices.
 - Solid testing approach.
 - Extensible code.
 
