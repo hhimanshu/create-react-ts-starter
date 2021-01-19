@@ -59,18 +59,21 @@ Detail View
 ### Tech stack
 
 - TypeScript oriented (JavaScipt can be used, but we strongly prefer TypeScript)
-  - Use **React**.
+  - Use **React**
   - _Do not_ use any React boilerplate, such as Create React App
 - Feel free to use a preprocessor, CSS-in-JS, or JSS tool but _do not_ use any pre-styled frameworks or libraries
   - The general rule of thumb is: you should write your own styling for your components, do not use "pre-made" tools and utilities
-  - GOOD:
+  - There are a few reasons we do this:
+    - we care about pixel perfect implementation
+    - we want to see your understanding of CSS and styling practices
+  - USE:
     - Styled-Components
     - Emotion
     - SCSS
     - SASS
     - LESS
     - CSS
-  - BAD:
+  - AVOID:
     - Tailwind
     - Bootstrap
     - Material UI
@@ -78,27 +81,30 @@ Detail View
 
 ### Bonus
 
-- Also create mobile version included in Figma comp.
-- Write clear **documentation** on how the app was designed and how to run the code.
-- Provide proper unit tests.
-- Provide components in [Storybook](https://storybook.js.org) with tests.
+- Make the application accessible
+- Also create mobile version included in Figma comp
+- Write clear **documentation** on how the app was designed and how to run the code
+- Implement useful testing
+- Provide components in [Storybook](https://storybook.js.org) (we use Storybook, buy any component display tool of your choice if fine!)
 - Use Yelp's [Graph QL](https://www.yelp.com/developers/graphql/guides/intro) endpoint
-- Write concise and clear commit messages.
-- Provide an online demo of the application.
+- Write concise and clear commit messages
+- Provide an online demo of the application
 - Include subtle animations to focus attention
-- Describe optimization opportunities when you conclude
+- Describe improvement opportunities when you conclude
 
 ## What We Care About
 
-Use any libraries that you would normally use if this were a real production App. Please note: we're interested in your code & the way you solve the problem, not how well you can use a particular library or feature.
-
-_We're interested in your method and how you approach the problem just as much as we're interested in the end result._
+Use any libraries that you would normally use if this were a real production App. Be prepared to justify those choices.
+Please note: _we care more about how you approach the problem than the end result. Code cleanliness and design
+are more important than using the "right" library._
 
 Here's what you should strive for:
 
-- Good use of current TypeScript, HTML, CSS, and performance best practices.
-- Solid testing approach.
-- Extensible code.
+- Good use of current TypeScript, HTML, CSS, and performance best practices
+- Solid testing approach
+- Extensible code
+- Mobile support and accessibility
+- Thorough explanation of decisions and tradeoffs
 
 ## Q&A
 
