@@ -65,7 +65,7 @@ Detail View
   - The general rule of thumb is: you should write your own styling for your components, do not use "pre-made" tools and utilities
   - There are a few reasons we do this:
     - we care about pixel perfect implementation
-    - we want to see your mastery of CSS and styling practices
+    - we want to see your understanding of CSS and styling practices
   - USE:
     - Styled-Components
     - Emotion
