@@ -1,0 +1,24 @@
+{
+  "name": "frontend-test",
+  "version": "1.0.0",
+  "description": "Be sure to read **all** of this document carefully, and follow the guidelines within.",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-p:hhimanshu/frontend-test.git"
+  },
+  "keywords": [],
+  "author": "Harit Himanshu",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.22.0",
+    "webpack-cli": "^4.5.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.20"
+  }
+}
