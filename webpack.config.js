@@ -14,8 +14,21 @@ module.exports = {
         })
     ],
     mode: "production",
+    optimization: {
+        moduleIds: "deterministic",
+        splitChunks: {
+            cacheGroups: {
+                vendor: {
+                    test: /[\\/]node_modules[\\/]/,
+                    name: "vendors",
+                    chunks: "all"
+                }
+            }
+        },
+        runtimeChunk: "single"
+    },
     output: {
-        filename: "[name].bundle.js",
+        filename: "[name].[contenthash].bundle.js",
         path: path.resolve(__dirname, 'dist')
     },
     module: {
