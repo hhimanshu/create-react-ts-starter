@@ -13,6 +13,8 @@ describe('Test App Component', () => {
   it('should display h1', () => {
     render(<App />);
     const h1 = screen.getByRole('heading');
-    expect(h1.innerHTML).toEqual('Hello React in TypeScript + Jest + React Testing Library + Storybook');
+    expect(h1.innerHTML).toEqual(
+      'Hello React in TypeScript + Jest + React Testing Library + Storybook'
+    );
   });
 });
