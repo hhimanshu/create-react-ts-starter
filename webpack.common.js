@@ -4,7 +4,7 @@ const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 
 module.exports = {
     entry: {
-        index: './src/index.js',
+        index: './src/index.ts',
     },
     plugins: [
         new CleanWebpackPlugin(),
@@ -19,6 +19,11 @@ module.exports = {
     module: {
         rules: [
             {
+                test: /\.(ts|tsx)/i,
+                use: ['ts-loader'],
+                exclude: /node_modules/
+            },
+            {
                 test: /\.css$/i,
                 use: ['style-loader', 'css-loader'],
             },
@@ -27,5 +32,8 @@ module.exports = {
                 type: "asset/resource"
             }
         ],
+    },
+    resolve: {
+        extensions: ['.tsx', '.ts', '.js']
     }
 }
