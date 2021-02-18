@@ -1,0 +1,9 @@
+name: TypeScript React CI
+on: [push]
+jobs:
+  install-and-test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - run: npm install
+      - run: npm test

@@ -1,0 +1,12 @@
+# Ignore artifacts
+dist
+.github
+coverage
+node_modules/
+.idea
+storybook-static/
+
+README.md
+tsconfig.json
+package-lock.json
+*.DS_Store

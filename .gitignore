@@ -1,0 +1,6 @@
+node_modules/
+.idea
+dist/
+coverage
+storybook-static/
+*.DS_Store
