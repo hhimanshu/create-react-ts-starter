@@ -1,0 +1,8 @@
+# Ignore artifacts
+dist
+.github
+coverage
+
+README.md
+tsconfig.json
+package-lock.json
