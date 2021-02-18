@@ -12,28 +12,9 @@ module.exports = {
             title: 'HMR'
         })
     ],
-    mode: "development",
-    optimization: {
-        moduleIds: "deterministic",
-        splitChunks: {
-            cacheGroups: {
-                vendor: {
-                    test: /[\\/]node_modules[\\/]/,
-                    name: "vendors",
-                    chunks: "all"
-                }
-            }
-        },
-        runtimeChunk: "single"
-    },
     output: {
         filename: "[name].[contenthash].bundle.js",
         path: path.resolve(__dirname, 'dist')
-    },
-    devtool: 'inline-source-map',
-    devServer: {
-        contentBase: './dist',
-        hot: true
     },
     module: {
         rules: [
@@ -46,5 +27,5 @@ module.exports = {
                 type: "asset/resource"
             }
         ],
-    },
+    }
 }
