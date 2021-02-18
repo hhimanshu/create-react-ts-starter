@@ -1,5 +1,3 @@
 module.exports = {
-    "jest": {
-        setupTestFrameworkScriptFile: "<rootDir>/tests.config.ts",
-    }
+    setupFilesAfterEnv: ["./src/tests.config.ts"]
 }
