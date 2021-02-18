@@ -4,8 +4,8 @@
   "description": "Be sure to read **all** of this document carefully, and follow the guidelines within.",
   "private": true,
   "scripts": {
-    "test": "jest --config",
-    "test:watch": "jest --watchAll",
+    "test": "jest --config jest.config.ts",
+    "test:watch": "jest --watchAll --config jest.config.ts",
     "dev": "webpack --config webpack.dev.config.js",
     "start": "webpack serve --open --config webpack.dev.js ",
     "build": "webpack --config webpack.prod.js"
@@ -20,6 +20,7 @@
   "devDependencies": {
     "@babel/core": "^7.12.16",
     "@babel/preset-env": "^7.12.16",
+    "@babel/preset-react": "^7.12.13",
     "@babel/preset-typescript": "^7.12.16",
     "@testing-library/react": "^11.2.5",
     "@types/enzyme": "^3.10.8",
