@@ -9,7 +9,7 @@
     "dev": "webpack --config webpack.dev.config.js",
     "start": "webpack serve --open --config webpack.dev.js ",
     "build": "webpack --config webpack.prod.js",
-    "format": "npx prettier --write",
+    "format": "prettier --write .",
     "postinstall": "husky install"
   },
   "repository": {
