@@ -4,12 +4,12 @@ const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 
 module.exports = {
     entry: {
-        index: './src/index.ts',
+        index: './src/index.tsx',
     },
     plugins: [
         new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
-            title: 'HMR'
+            template: path.join(__dirname, 'src', 'index.html')
         })
     ],
     output: {
