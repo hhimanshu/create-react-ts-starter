@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 const { execSync } = require('child_process');
 
-const runCommand = (command) => {
+const runCommand = command => {
   try {
     execSync(`${command}`, { stdio: 'inherit' });
   } catch (e) {
@@ -23,5 +23,7 @@ console.log(`Installing dependencies for ${repoName}`);
 const installedDeps = runCommand(installDepsCommand);
 if (!installedDeps) process.exit(-1);
 
-console.log('Congratulations! You are ready. Follow the following commands to start');
+console.log(
+  'Congratulations! You are ready. Follow the following commands to start'
+);
 console.log(`cd ${repoName} && npm start`);
