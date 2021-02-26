@@ -1,8 +1,8 @@
 {
-  "name": "frontend-test",
-  "version": "1.0.0",
-  "description": "Be sure to read **all** of this document carefully, and follow the guidelines within.",
-  "private": true,
+  "name": "@h2_demo/create-react-ts-starter",
+  "version": "1.0.6",
+  "description": "A React Starter from scratch using TypeScript, Webpack, Jest, React Testing Library, Storybook, Perttier, ESLint, and GitHub Actions.",
+  "bin": "./bin/cli.js",
   "scripts": {
     "test": "jest --config jest.config.ts",
     "test:watch": "jest --watchAll --config jest.config.ts",
@@ -17,11 +17,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com-p:hhimanshu/frontend-test.git"
+    "url": "https://github.com/hhimanshu/react-ts-starter"
   },
   "keywords": [],
   "author": "Harit Himanshu",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.17",
