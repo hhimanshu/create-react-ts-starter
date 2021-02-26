@@ -1,7 +1,7 @@
 {
   "name": "create-react-ts-starter",
   "version": "1.0.0",
-  "description": "A React Starter from scratch using TypeScript, Webpack, Jest, React Testing Library, Storybook, Perttier, ESLint, and GitHub Actions.",
+  "description": "A React Starter from scratch using TypeScript, Webpack, Jest, React Testing Library, Storybook, Prettier, ESLint, and GitHub Actions.",
   "private": true,
   "scripts": {
     "test": "jest --config jest.config.ts",
