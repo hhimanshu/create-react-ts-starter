@@ -7,11 +7,12 @@
 - Support for Storybook
 
 ### Commands
-- `npm i` to install dependencies.
-- `npm start` to develop locally.
-- `npm test` to test and see the code coverage.
-- `npm run build` to create a production build.
-- `npx serve dist -l 6666` to serve production build on port `6666`.
-- `npm run storybook` to start storybook in development mode.
-- `npm run build-storybook` to create production build for storybook.
-- `npx serve storybook-static -l 5858` to serve production build for storybook on port `5858`.
+- `yarn install` to install dependencies.
+- `yarn start` to develop locally.
+- `yarn test` to test and see the code coverage.
+- `yarn build` to create a production build.
+- `yarn lint` to lint your code using `eslint`.
+- `yarn start-prod` to serve production build on port `5000`.
+- `yarn storybook` to start storybook in development mode.
+- `yarn build-storybook` to create production build for storybook.
+- `yarn start-prod-storybook` to serve production build for storybook on port `5858`.

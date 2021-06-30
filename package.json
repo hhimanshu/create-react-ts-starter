@@ -6,14 +6,15 @@
   "scripts": {
     "test": "jest --config jest.config.ts",
     "test:watch": "jest --watchAll --config jest.config.ts",
-    "dev": "webpack --config webpack.dev.config.js",
     "start": "webpack serve --open --config webpack.dev.js ",
+    "start-prod": "rm -rf dist && yarn build && npx -y serve dist",
     "build": "webpack --config webpack.prod.js",
     "lint": "eslint -c .eslintrc.js --ext .ts src",
     "format": "prettier --write .",
     "postinstall": "husky install",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "start-prod-storybook": "yarn build-storybook && npx -y serve storybook-static -l 5858"
   },
   "repository": {
     "type": "git",
