@@ -7,9 +7,10 @@
 - Support for Storybook
 
 ### Commands
-- `yarn install` to install dependencies.
+- `./setup.sh` to install dependencies.
 - `yarn start` to develop locally.
 - `yarn test` to test and see the code coverage.
+- `yarn test:watch` to test in the watch mode.
 - `yarn build` to create a production build.
 - `yarn lint` to lint your code using `eslint`.
 - `yarn start-prod` to serve production build on port `5000`.
