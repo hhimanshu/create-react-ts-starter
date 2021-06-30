@@ -12,9 +12,9 @@ module.exports = merge(common, {
     contentBase: './dist',
     hot: true,
     onListening: () => {
-      openBrowser(`http://${host}:${port}`)
+      openBrowser(`http://${host}:${port}`);
     },
     port,
-    host
+    host,
   },
 });

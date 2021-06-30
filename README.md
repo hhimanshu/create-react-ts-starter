@@ -5,6 +5,7 @@
 - ESLint support
 - Ability to collect code coverage via Jest
 - Support for Storybook
+- CI setup using GitHub Actions
 
 ### Commands
 - `./setup.sh` to install dependencies.
