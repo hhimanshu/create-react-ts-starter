@@ -2,7 +2,7 @@ name: Release Create React TypeScript Starter
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   release:
     name: Release
