@@ -4,7 +4,8 @@ import { Home } from './Home';
 import { Page1 } from './Page1';
 import { Page2 } from './Page2';
 
-const App = () => (<Router>
+const App = () => (
+  <Router>
     <Switch>
       <Route path='/' exact component={Home} />
       <Route path='/page1' component={Page1} />

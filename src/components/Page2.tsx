@@ -6,4 +6,4 @@ export const Page2 = () => (
     <h1>This is page 2</h1>
     <Link to={'/'}>Go to Home</Link>
   </Fragment>
-)
+);
