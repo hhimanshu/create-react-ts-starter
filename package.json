@@ -7,7 +7,7 @@
     "test": "jest --config jest.config.ts",
     "test:watch": "jest --watchAll --config jest.config.ts --collectCoverage=false",
     "start": "webpack serve --config webpack.dev.js ",
-    "start-prod": "rm -rf dist && yarn build && npx -y serve dist",
+    "start-prod": "rm -rf dist && yarn build && npx -y serve -s dist",
     "build": "webpack --config webpack.prod.js",
     "lint": "eslint -c .eslintrc.js --ext .ts src",
     "format": "prettier --write .",

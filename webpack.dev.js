@@ -10,6 +10,7 @@ module.exports = merge(common, {
   devtool: 'inline-source-map',
   devServer: {
     contentBase: './dist',
+    historyApiFallback: true,
     hot: true,
     onListening: () => {
       openBrowser(`http://${host}:${port}`);
