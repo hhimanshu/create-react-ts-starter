@@ -11,8 +11,6 @@
 html,
 body {
   font-family: 'Lato', serif;
-}
-
-.hello {
-  color: orange;
+  padding: 0;
+  margin: 0;
 }
