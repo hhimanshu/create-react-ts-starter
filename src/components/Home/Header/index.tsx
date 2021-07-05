@@ -1,21 +1,18 @@
 import React from 'react';
-import GitHubButton from 'react-github-btn';
 import './styles.css';
 
 export const Header = () => {
   return (
     <div className={'header'}>
       <h1>React TypeScript Starter</h1>
-      <GitHubButton
-        href='https://github.com/hhimanshu/create-react-ts-starter'
-        data-color-scheme='no-preference: light; light: light; dark: dark;'
-        data-icon='octicon-star'
-        data-size='large'
-        data-show-count='true'
-        aria-label='Star hhimanshu/create-react-ts-starter on GitHub'
-      >
-        Star
-      </GitHubButton>
+      <iframe
+        src='https://ghbtns.com/github-btn.html?user=hhimanshu&repo=create-react-ts-starter&type=star&count=true&size=large'
+        frameBorder='0'
+        scrolling='0'
+        width='170'
+        height='30'
+        title='GitHub'
+      />
     </div>
   );
 };
