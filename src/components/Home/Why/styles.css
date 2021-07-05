@@ -1,0 +1,10 @@
+.why {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px;
+    border: 1px solid black;
+}
+
+.why p {
+    font-weight: lighter;
+}
