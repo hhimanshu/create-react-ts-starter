@@ -4,6 +4,7 @@ import { Header } from './Header';
 import { Why } from './Why';
 import { Features } from './Features';
 import { GetStarted } from './GetStarted';
+import { Discussion } from './Discussion';
 
 export const Home = () => {
   return (
@@ -12,6 +13,7 @@ export const Home = () => {
       <Why />
       <Features />
       <GetStarted />
+      <Discussion />
     </Fragment>
   );
 };
