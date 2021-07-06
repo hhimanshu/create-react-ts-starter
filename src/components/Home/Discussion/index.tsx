@@ -9,7 +9,7 @@ export const Discussion = () => {
     );
 
   return (
-    <Section title={'Have ideas?'} bgColor={'#F9F8F8'}>
+    <Section title={'Have ideas?'}>
       <Button title={'Start a discussion'} onClick={openDiscussion} />
     </Section>
   );
