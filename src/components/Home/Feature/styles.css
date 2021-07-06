@@ -1,0 +1,15 @@
+.featureContainer {
+  display: flex;
+}
+
+.feature {
+  padding-left: 10px;
+}
+
+.feature > h3 {
+  margin: 0;
+}
+
+.feature > p {
+  margin-top: 10px;
+}

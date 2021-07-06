@@ -1,0 +1,20 @@
+.btnContainer {
+  border: 0px solid black;
+  padding: 20px 0;
+}
+
+.primaryButton {
+  background-color: #000000;
+  text-align: center;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+}
+
+.primaryButton > p {
+  font-family: 'Poppins', serif;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 0 20px;
+  color: #ffffff;
+}

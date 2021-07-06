@@ -33,6 +33,7 @@
     "@storybook/addon-essentials": "6.3.2",
     "@storybook/addon-links": "6.3.2",
     "@storybook/react": "6.3.2",
+    "@svgr/webpack": "^5.5.0",
     "@testing-library/react": "12.0.0",
     "@types/enzyme": "3.10.8",
     "@types/enzyme-adapter-react-16": "1.0.6",
@@ -57,15 +58,17 @@
     "ts-loader": "9.2.3",
     "ts-node": "10.0.0",
     "typescript": "4.3.5",
+    "url-loader": "^4.1.1",
     "webpack": "5.42.1",
     "webpack-cli": "4.7.2",
     "webpack-dev-server": "3.11.2",
     "webpack-merge": "5.8.0"
   },
   "dependencies": {
+    "@fontsource/poppins": "^4.4.5",
     "react": "17.0.2",
     "react-dom": "17.0.2",
-    "react-router-dom": "5.2.0"
+    "react-router-dom": "^5.2.0"
   },
   "release": {
     "branches": [
