@@ -1,13 +1,7 @@
-### What it contains
-- ReactJS support with TypeScript
-- Testing support using Jest and React Testing Library
-- Formatting support using Prettier
-- ESLint support
-- Ability to collect code coverage via Jest
-- Support for Storybook
-- CI setup using GitHub Actions
+# React TypeScript Starter
+Read more about why and list of all supported features [here](https://react-ts-starter-hhimanshu.vercel.app/)
 
-### Commands
+## Commands
 - `./setup.sh` to install dependencies.
 - `yarn start` to develop locally.
 - `yarn test` to test and see the code coverage.
@@ -18,3 +12,18 @@
 - `yarn storybook` to start storybook in development mode.
 - `yarn build-storybook` to create production build for storybook.
 - `yarn start-prod-storybook` to serve production build for storybook on port `5858`.
+
+## 3rd party setup
+If you are planning to leverage the ecosystem as available in this repository, you need to setup your project to use
+Vercel, Semantic Release and Renovate.
+
+All these tools are easy to configure. Please find their documentation below
+
+[Vercel - Deploy a project](https://vercel.com/docs#deploy-an-existing-project)
+
+[Semantic Release - Setup](https://semantic-release.gitbook.io/semantic-release/usage/getting-started)
+
+[Renovate Github App Installation](https://docs.renovatebot.com/install-github-app/)
+
+## Questions or Ideas?
+Please [start a new discussion](https://github.com/hhimanshu/create-react-ts-starter/discussions) 
