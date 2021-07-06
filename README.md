@@ -25,5 +25,12 @@ All these tools are easy to configure. Please find their documentation below
 
 [Renovate Github App Installation](https://docs.renovatebot.com/install-github-app/)
 
+## How tos
+### How to import and use `SVG`?
+```tsx
+import Check from '../../../assets/check.svg'; // import
+<Check /> // use
+```
+
 ## Questions or Ideas?
 Please [start a new discussion](https://github.com/hhimanshu/create-react-ts-starter/discussions) 

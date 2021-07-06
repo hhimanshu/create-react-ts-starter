@@ -5,6 +5,7 @@ import { Why } from './Why';
 import { Features } from './Features';
 import { GetStarted } from './GetStarted';
 import { Discussion } from './Discussion';
+import { NotIncluded } from './NotIncluded';
 
 export const Home = () => {
   return (
@@ -12,6 +13,7 @@ export const Home = () => {
       <Header />
       <Why />
       <Features />
+      <NotIncluded />
       <GetStarted />
       <Discussion />
     </Fragment>
