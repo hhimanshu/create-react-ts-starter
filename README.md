@@ -1,6 +1,11 @@
 # React TypeScript Starter
 Read more about why and list of all supported features [here](https://react-ts-starter-hhimanshu.vercel.app/)
 
+## To Start
+Click **Use this template** button above or [click here](https://github.com/hhimanshu/create-react-ts-starter/generate) to create a new repository based on this template.
+
+You need to provide the name of this project. Once Github creates the project, you must [clone the repo](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository-from-github/cloning-a-repository) to your local before you start executing the commands
+
 ## Commands
 - `./setup.sh` to install dependencies.
 - `yarn start` to develop locally.
