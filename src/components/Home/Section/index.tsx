@@ -13,9 +13,9 @@ export const Section = ({
   bgColor = '#FFFFFF',
 }: SectionProps) => {
   return (
-    <div className={'section'} style={{ backgroundColor: `${bgColor}` }}>
+    <section className={'section'} style={{ backgroundColor: `${bgColor}` }}>
       <h2>{title}</h2>
       {children}
-    </div>
+    </section>
   );
 };
