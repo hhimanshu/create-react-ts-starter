@@ -111,6 +111,10 @@ const RoutingSupport = () => {
   return (
     <Feature title={'Bundled with React-Router'}>
       <p>Create your components and hook them up with routes</p>
+      <div className={'routingLinks'}>
+        <ExternalLink title={'Visit Page 1'} url={'/page1'} />
+        <ExternalLink title={'Visit Page 2'} url={'/page2'} />
+      </div>
     </Feature>
   );
 };
