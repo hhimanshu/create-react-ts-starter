@@ -7,11 +7,11 @@ interface FeatureProps {
   children: ReactNode;
 }
 
-export const Feature = (props: FeatureProps) => {
+export const Feature = ({ title, children }: FeatureProps) => {
   return (
     <div className={'featureContainer'}>
       <Check />
-      <FeatureDetails {...props} />
+      <FeatureDetails title={title} children={children} />
     </div>
   );
 };

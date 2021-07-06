@@ -1,9 +1,9 @@
 import React, { Fragment } from 'react';
-import { Link } from 'react-router-dom';
 import './styles.css';
 import { Header } from './Header';
 import { Why } from './Why';
 import { Features } from './Features';
+import { GetStarted } from './GetStarted';
 
 export const Home = () => {
   return (
@@ -11,6 +11,7 @@ export const Home = () => {
       <Header />
       <Why />
       <Features />
+      <GetStarted />
     </Fragment>
   );
 };
