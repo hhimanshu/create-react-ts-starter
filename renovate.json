@@ -1,4 +1,5 @@
 {
-  "extends": ["config:base", "schedule:weekly"],
+  "extends": ["config:base"],
+  "schedule": ["every 3 months on the first day of the month"],
   "groupName": "all"
 }
